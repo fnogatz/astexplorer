@@ -1,0 +1,4 @@
+% Example:
+% member(X,[1,2,3]).
+member(X,[X|_]).
+member(X,[_|Xs]) :- member(X,Xs).
