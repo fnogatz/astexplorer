@@ -35,3 +35,8 @@
   min-width: 300px;
   width: fit-content;
 }
+
+#PrologEditor textarea {
+  width: 100%;
+  height: 100%;
+}
