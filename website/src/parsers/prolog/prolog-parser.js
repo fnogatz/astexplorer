@@ -16,7 +16,7 @@ export default {
 
   parse(prologParser, code) {
     return prologParser(code, {
-      uri: 'http://localhost:8081/'
+      uri: 'http://' + window.location.hostname + ':8081/'
     });
   },
 
